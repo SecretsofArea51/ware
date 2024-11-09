@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(213, 225, 239);
+    min-height: 100vh;
+    text-align: center;
+}
+.card{
+    height: 470px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 10px 6px 9px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 16px;
+    background-color: white;
+    /* centered a div */
+    position: fixed;/*document overflow - connected to the viewport*/
+    margin: auto;/*center an element horizontally within its parent container ,it also calculates automatic values for everything .*/
+    inset: 0;/*it means that .card should have zero distance from top left right bottom and left and margin auto helps in that*/
+    padding: 1rem;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    color: #192433;
+}
+p{
+    color: #78818A;
+}
